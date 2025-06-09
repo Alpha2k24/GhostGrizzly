@@ -1,17 +1,18 @@
 import React from "react";
+import SolaNzila from "./../assets/SolaNzila.png";
 
 const projects = [
   {
     title: "Landing Page para Aulas de Apoio",
-    image: "/assets/SolaNzila.png",
+    image: SolaNzila,
   },
   {
     title: "E-commerce de Roupas",
-    image: "/assets/SolaNzila.png",
+    image: SolaNzila,
   },
   {
     title: "Portfólio Profissional",
-    image: "/assets/SolaNzila.png",
+    image: SolaNzila,
   },
 ];
 
