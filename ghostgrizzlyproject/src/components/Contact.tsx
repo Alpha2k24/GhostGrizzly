@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ContactForm() {
   return (
-    <section className="py-16 bg-[rgba(0,20,50,0.7)] backdrop-blur-md">
+    <section id="Contact" className="py-16 bg-[rgba(0,20,50,0.7)] backdrop-blur-md">
       <div className="max-w-2xl mx-auto px-6">
         <h2 className="text-3xl font-bold text-blue-200 mb-8 text-center font-orbitron drop-shadow-lg">
           Fale Conosco
