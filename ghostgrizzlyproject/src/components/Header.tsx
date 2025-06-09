@@ -40,7 +40,7 @@ export default function Header(): JSX.Element {
                 transition={{ delay: 0.3 + i * 0.1, duration: 0.4 }}
               >
                 <a
-                  href={`/${label.toLowerCase()}`}
+                  href={`#${label.toLowerCase()}`}
                   className="group relative inline-block py-1 transition-all duration-300 ease-in-out hover:text-indigo-400"
                 >
                   {label}
