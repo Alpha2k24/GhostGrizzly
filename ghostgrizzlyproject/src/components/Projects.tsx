@@ -1,18 +1,17 @@
 import React from "react";
-import foto from "../assets/logo.jpeg";
 
 const projects = [
   {
     title: "Landing Page para Startup",
-    image: "/images/project1.jpg",
+    image: "/assets/SolaNzila.png",
   },
   {
     title: "E-commerce de Roupas",
-    image: "/images/project2.jpg",
+    image: "/assets/SolaNzila.png",
   },
   {
     title: "Portfólio Profissional",
-    image: "/images/project3.jpg",
+    image: "/assets/SolaNzila.png",
   },
 ];
 
@@ -25,7 +24,7 @@ export default function Portfolio() {
           {projects.map((project, index) => (
             <div key={index} className="group relative overflow-hidden rounded-xl shadow-lg">
               <img
-                src={foto}
+                src={project.image}
                 alt={project.title}
                 className="w-full h-60 object-cover transition-transform duration-500 group-hover:scale-110"
               />
