@@ -5,6 +5,7 @@ const projects = [
   {
     title: "Landing Page para Aulas de Apoio",
     image: SolaNzila,
+    link: "https://alpha2k24.github.io/SolaNzila/"
   },
   {
     title: "E-commerce de Roupas",
@@ -31,6 +32,14 @@ export default function Portfolio() {
               />
               <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
                 <p className="text-white text-lg font-bold">{project.title}</p>
+                {project.link && (
+                  <a
+                    href={project.link}
+                    className="absolute inset-0 w-full h-full"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  ></a>
+                )}
               </div>
             </div>
           ))}
