@@ -2,7 +2,7 @@ import React from "react";
 
 const projects = [
   {
-    title: "Landing Page para Startup",
+    title: "Landing Page para Aulas de Apoio",
     image: "/assets/SolaNzila.png",
   },
   {
