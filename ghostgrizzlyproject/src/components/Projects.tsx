@@ -7,17 +7,17 @@ const projects = [
   {
     title: "Landing Page para Aulas de Apoio",
     image: SolaNzila,
-    link: "https://alpha2k24.github.io/SolaNzila/"
+    link: "https://gaspardiasdev.github.io/SolaNzila/"
   },
   {
     title: "Mini Portfólio Animado",
     image: PortfolioMini,
-    link: "https://alpha2k24.github.io/ReactEstudo/"
+    link: "https://gaspardiasdev.github.io/ReactEstudo/"
   },
   {
     title: "Carrinho de Compras",
     image: Carrinho,
-    link: "https://alpha2k24.github.io/CarrinhoDeCompras/"
+    link: "https://gaspardiasdev.github.io/CarrinhoDeCompras/"
   },
 ];
 
