@@ -1,5 +1,7 @@
 import React from "react";
 import SolaNzila from "./../assets/SolaNzila.png";
+import PortfolioMini from "./../assets/Portfolio.png";
+import Carrinho from "./../assets/Carrinho.png";
 
 const projects = [
   {
@@ -8,12 +10,14 @@ const projects = [
     link: "https://alpha2k24.github.io/SolaNzila/"
   },
   {
-    title: "E-commerce de Roupas",
-    image: SolaNzila,
+    title: "Mini Portfólio Animado",
+    image: PortfolioMini,
+    link: "https://alpha2k24.github.io/ReactEstudo/"
   },
   {
-    title: "Portfólio Profissional",
-    image: SolaNzila,
+    title: "Carrinho de Compras",
+    image: Carrinho,
+    link: "https://alpha2k24.github.io/CarrinhoDeCompras/"
   },
 ];
 
