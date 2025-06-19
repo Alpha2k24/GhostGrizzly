@@ -20,3 +20,13 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+body {
+  overscroll-behavior: none;
+  text-rendering: optimizeLegibility;
+  background: #0b1120; /* fallback dark behind canvas */
+}
+
+.char {
+  display: inline-block;
+}

@@ -1,23 +1,39 @@
-import React, { JSX } from "react";
+import React from "react";
+import { motion } from "framer-motion";
 
-export default function Home(): JSX.Element {
-    return (
-        <>
-            {/* Hero Section */}
-            <section id="home" className="flex flex-col items-center justify-center text-center px-4 py-28 sm:py-40 max-w-5xl mx-auto bg-black/60 backdrop-blur-sm rounded-xl mt-10 shadow-xl">
-                <h1 className="font-orbitron text-5xl sm:text-6xl mb-6 bg-gradient-to-r from-sky-400 to-indigo-600 bg-clip-text text-transparent drop-shadow-md">
-                    Construindo o futuro digital
-                </h1>
-                <p className="font-inter text-lg sm:text-xl max-w-2xl mb-8 text-white/90">
-                    Na GhostGrizzly, desenvolvemos sites e apps modernos, rápidos e com design impactante para sua empresa.
-                </p>
-                <a
-                    href="#services"
-                    className="px-8 py-3 rounded-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold shadow-lg transition-all duration-300"
-                >
-                    Conheça nossos serviços
-                </a>
-            </section>
-        </>
-    );
+export default function Home() {
+  return (
+    <section
+      id="home"
+      className="min-h-[80vh] flex flex-col items-center justify-center text-center px-6 py-32 sm:py-48 max-w-5xl mx-auto bg-gradient-to-br from-black/40 to-gray-900/30 backdrop-blur-md rounded-2xl shadow-2xl border border-cyan-500/10"
+    >
+      <motion.h1
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+        className="font-orbitron text-4xl sm:text-6xl mb-6 bg-gradient-to-r from-cyan-400 to-white text-transparent bg-clip-text drop-shadow-lg"
+      >
+        Construindo o Futuro Digital
+      </motion.h1>
+
+      <motion.p
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.2, duration: 1 }}
+        className="font-inter text-lg sm:text-xl max-w-2xl mb-8 text-white/90"
+      >
+        Na GhostGrizzly, desenvolvemos experiências digitais imersivas com tecnologia de ponta, performance e impacto visual.
+      </motion.p>
+
+      <motion.a
+        href="#services"
+        initial={{ opacity: 0, scale: 0.8 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        transition={{ delay: 0.4, duration: 0.6 }}
+        className="px-8 py-3 rounded-full bg-cyan-600 hover:bg-cyan-700 text-white font-semibold shadow-lg transition-all duration-300"
+      >
+        Conheça nossos serviços
+      </motion.a>
+    </section>
+  );
 }
